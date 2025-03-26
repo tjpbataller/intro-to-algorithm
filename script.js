@@ -23,7 +23,10 @@ function doAnything(a, b, c, d, e) {
 doAnything(5, 4, 3, 2, 1);
 
 function isEqual(a, b) {
-    if(a == b) return "same"
-    else {return "not same"}
+    if(a == b) {
+        return "same";
+    } else {
+        return "not same";
+    }
 }
 isEqual(2, 3);
