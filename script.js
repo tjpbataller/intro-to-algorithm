@@ -30,3 +30,7 @@ function isEqual(a, b) {
     }
 }
 isEqual(2, 3);
+
+function addNewTask(c, d){
+    return c * d;
+}
