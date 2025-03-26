@@ -34,3 +34,4 @@ isEqual(2, 3);
 function addNewTask(c, d){
     return c * d;
 }
+addNewTask(4, 5);
